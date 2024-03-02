@@ -76,7 +76,7 @@ const showCardByClicked = (id, sortview) => {
         <figure><img class="w-full" src="${element.thumbnail}" alt="Shoes" /></figure>
         <div class="flex p-4">
           <div>
-            <img src="${element.authors[0].profile_picture}}" alt="" class="w-[50px] rounded-full">
+            <img src="${element.authors[0].profile_picture}}" alt="" class="w-[50px] h-[50px] rounded-full">
           </div>
           <div class="ml-4">
             <h2 class="card-title">${element.title}</h2>
