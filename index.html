@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="p-5 container mx-auto">
+  <header class="mb-10">
+    <div class="flex justify-between">
+      <h1>Youtube</h1>
+      <button class="btn  btn-ghost" onclick="sortView()">Sort by view</button>
+      <button class="btn bg-red-100" href="blog.html">Blog</button>
+    </div>
+  </header>
+  <hr>
+  <main>
+    <div id="allBtn" class="flex justify-center  *:ml-10 my-10">
+
+    </div>
+
+    <div class="flex justify-center items-center">
+      <div class="hidden mt-10" id="nothing">
+        <img src="icon.png" class="d-block mx-auto" alt=""></img>
+        <h1 class="text-4xl mt-4  text-gray-400">Oops! there is no data forthis category</h1>
+      </div>
+    </div>
+
+    <div id="videoContainer" class="grid gap-x-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 *:mt-10">
+
+    
+    </div>
+
+  </main>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
